@@ -806,7 +806,12 @@
     text-transform: uppercase;
     box-shadow: 0 0 15px #e3b87321;
     border: none;
-    align-self: flex-end;
+    align-self: flex-end;  
+    transition: 0.3s;
+}
+
+.call-form__button:hover {
+    background-color: #ddab5a;
 }
 
 .benefits__sale-info {
